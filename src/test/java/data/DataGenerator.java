@@ -1,4 +1,4 @@
-package java.ru.netology.delivery.data;
+package data;
 
 import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;
@@ -58,7 +58,7 @@ public class DataGenerator {
             return newUser;
         }
 
-            }
+    }
 
 
     @Value
